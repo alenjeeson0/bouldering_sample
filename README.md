@@ -17,6 +17,7 @@
       <span class="badge">Beginner Project</span>
     </div>
     <p>A beginner-friendly static website about bouldering, built with pure HTML and CSS. Created as a learning project while exploring web development fundamentals.</p>
+    <h1>Bouldering Live Link <a href="https://bouldering-sample.netlify.app">Here</a></h1>
   </div>
 
   <!-- File Structure -->
@@ -81,7 +82,7 @@
   <h2>🚀 Running Locally</h2>
   <div class="code-block">
     <div><span class="comment"># 1. Clone the repo</span></div>
-    <div><span class="prompt">$</span> <span class="cmd">git clone https://github.com/your-username/boulder-inc.git</span></div>
+    <div><span class="prompt">$</span> <span class="cmd">git clone https://github.com/alenjeeson0/bouldering_sample.git</span></div>
     <br>
     <div><span class="comment"># 2. Open in browser — no build step needed</span></div>
     <div><span class="prompt">$</span> <span class="cmd">open index.html</span></div>

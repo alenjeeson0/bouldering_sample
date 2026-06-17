@@ -17,7 +17,7 @@
       <span class="badge">Beginner Project</span>
     </div>
     <p>A beginner-friendly static website about bouldering, built with pure HTML and CSS. Created as a learning project while exploring web development fundamentals.</p>
-    <h1>Bouldering Live Link <a href="https://bouldering-sample.netlify.app">Here</a></h1>
+    <h1>Bouldering Live Link <a href="https://bouldering-sample.netlify.app" target="_blank">Here</a></h1>
   </div>
 
   <!-- File Structure -->

@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  color: #1b281b;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  padding: 0px 100px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  line-height: 1.1;
+  @media (width > 800px) {
+    font-size: 7.5rem;
+  }
+}
+a {
+  color: inherit;
+}
+h2 {
+  color: #cb731c;
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+.wrapper{
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+.two-column-layout{
+  display: grid;
+  gap: 50px;
+  margin-block-end: 60px;
+
+  @media (width > 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+section{
+  margin-block: 75px;
+}
+
+header{
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+}
+.primary-navigation ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.primary-navigation a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.primary-navigation a:hover, .primary-navigation a:focus{
+  color: #5f9b9f;
+}
+footer {
+  text-align: center;
+}
+.teal-bg{
+  color: #ffffff;
+  border: #0b4a5a solid 10px;
+  background-color: #087A98;
+  padding: 20px;
+}
+.title-nm{
+  color: #087A98;
+}
+a{
+  color: #2b930b;
+}
+a:hover, a:focus-visible{
+  color: #6ec4c0;
+}
+img{
+  max-inline-size: 100%;
+  display: block;
+}
+.climber-bg{
+  color: #ffffff;
+  background-image: url("../images/simple-steps.jpg");
+  padding: 24px;
+  border: #0b4a5a solid 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ul, ol{
+  color: black;
+}
+li{
+  margin-block: 5px;
+}
+section ul li::marker{
+  content: '🔥';
+}

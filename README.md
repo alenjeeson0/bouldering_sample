@@ -157,4 +157,3 @@
 </div>
 </body>
 </html>
-](https://bouldering-sample.netlify.app)
